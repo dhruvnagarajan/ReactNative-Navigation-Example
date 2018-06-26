@@ -1,0 +1,3 @@
+- React doesn't have native navigation, and this project is using 'react-navigation'
+- 'stackNavigation' has to be exported from the root component, which is in 'App.js'
+- Every component that gets called using 'stackNavigation' gets the 'navigator' passed to it as a 'prop'; use 'navigator' from child components using this prop
